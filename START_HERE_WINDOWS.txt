@@ -1,0 +1,22 @@
+START POLARIS ON WINDOWS
+========================
+
+METHOD 1 — easiest
+1. Extract the ZIP.
+2. Open folder: POLARIS_Realistic_Final_Model
+3. Double-click: run_windows.bat
+4. Browser opens: http://127.0.0.1:8000
+5. Login: admin / admin123
+
+METHOD 2 — PowerShell
+Open PowerShell inside the extracted folder and run:
+py app.py
+
+If 'py' is not available:
+python app.py
+
+Then open:
+http://127.0.0.1:8000
+
+IMPORTANT
+Keep the PowerShell / Command Prompt window open while using the prototype.
